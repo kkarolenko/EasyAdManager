@@ -1,0 +1,99 @@
+h3 {
+	font-weight: 100;
+	font-size: 1.5em;
+}
+
+#eam_settings {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 28px;
+}
+
+#eam_ads {
+	display: inline-block;
+	padding-right: 28px;
+	border-right: dashed 1px #ddd;
+}
+
+#eam_ad_options_container {
+	position: relative;
+	margin: 14px 0px;
+	color: #eee;
+}
+
+#eam_options {
+	position: relative;
+	top: 1px;
+	font-size: 0px;
+}
+
+.eam_option.selected {
+	display: block;
+}
+
+#eam_options li {
+	display: inline-block;
+	background: #222;
+	padding: 8px 16px;
+	margin: 0;
+	font-size: 14px;
+	cursor: pointer;
+	color: #bbb;
+}
+
+#eam_options li:hover {
+	background: #111;
+}
+
+#eam_options li.selected {
+	background: #333;
+	color: #eee;
+}
+
+#eam_edit {
+	background: #333;
+	padding: 8px;
+}
+
+.eam_option {
+	display: none;
+}
+
+.eam_option.selected {
+	display: block;
+}
+
+label {
+	display: block;
+	margin-top: 4px;
+}
+
+#eam_settings label {
+	display: inline;
+}
+
+#expires_label {
+	display: inline;
+}
+
+input {
+	margin: 0;
+}
+
+input[type="datetime-local"] {
+	display: block;
+}
+
+input[name="name"] {
+	display: block;
+	margin: 10px 0px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.expires {
+	vertical-align: top;
+	margin-left: 14px;
+}
